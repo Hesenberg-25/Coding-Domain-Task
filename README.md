@@ -18,16 +18,15 @@ This section covers the basics of Git and GitHub. The objective of this task was
 
 ## Commands Practiced
 
-- git clone  
-- git status  
-- git add  
-- git commit  
-- git push  
-- git pull  
-- git branch  
-- git checkout  
-- git log  
-- git reset  
+ 1. git clone
+ 2. git status
+ 3. git add
+ 4. git commit
+ 5. git push
+ 6. git pull
+ 7. git branch
+ 8. git log
+ 9. git reset  
 
 ## Conclusion
 
@@ -35,3 +34,30 @@ This section covers the basics of Git and GitHub. The objective of this task was
 2. Working in the terminal using Git commands was a new and valuable learning experience.
 
 #  Arduino for Blinking of LED
+## About
+This project demonstrates LED blinking using Arduino, where a push button toggles the LED blinking ON and OFF.
+
+## Components Used
+1. Arduino Board
+2. Arduino IDE
+3. LED
+4. Push Button
+
+## Concept
+1. Digital input and output
+2. Toggle logic using push button
+3. INPUT_PULLUP for stable input
+4. Delay for blinking speed
+
+## Working Principle
+1. Button press toggles the LED blinking state.
+2. Once ON, the LED keeps blinking without holding the button.
+3. A small delay is used for debouncing to avoid false triggers.
+
+```cpp
+if (button == LOW && lastButton == HIGH) {
+    ledOn = !ledOn;
+    delay(100);
+}
+lastButton = button;
+```
