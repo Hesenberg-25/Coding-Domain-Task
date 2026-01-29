@@ -4,6 +4,41 @@ This Repo include Content related to :
 2. Git and GitHub
 3. Arduino for Blinking of LED
 # Basic Of Linux : 
+1.Interface : 
+ - CLI → Terminal
+ - GUI → Graphical interface
+
+2. Commands :
+   ``` bash
+   - ls                   # list files/directories
+   - ls -a                # include hidden files
+   - ls -lart             # long format, all, time, reverse
+   - pwd                  # current directory
+   - cd dir/              # change directory
+   - cd ..                # parent directory
+   - mkdir                # create directory
+   - touch                # create file
+   - mv                   # move file
+   - cp                   # copy file
+   - history              # command history
+   - echo "x" printf "x"  # print output
+   ```
+3. Users :
+  - Regular → Limited ccess
+  - Root → Full Access
+  ``` bash
+  - sudo command
+  - sudo apt update
+  - sudo apt upgrade
+  - sudo apt install 
+  - top
+  - ps
+  - kill 
+  ```
+4. Path :
+ - Absolute → /path
+ - Relative → path/
+
 # Git and GitHub :
 
 ## About
@@ -17,7 +52,7 @@ This section covers the basics of Git and GitHub. The objective of this task was
 3. Changes in code are saved in the form of Commits, which store When and What and When changes were made.
 
 ## Commands Practiced
-
+``` bash
  1. git clone
  2. git status
  3. git add
@@ -27,7 +62,7 @@ This section covers the basics of Git and GitHub. The objective of this task was
  7. git branch
  8. git log
  9. git reset  
-
+```
 ## Conclusion
 
 1. This task helped me understand how developers manage code versions and collaborate using Git and GitHub.
